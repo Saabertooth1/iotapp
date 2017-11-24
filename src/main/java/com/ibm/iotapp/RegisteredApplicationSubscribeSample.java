@@ -131,8 +131,8 @@ public class RegisteredApplicationSubscribeSample {
 							break;
 
 						case "+5":
-							robot.keyPress(KeyEvent.VK_RIGHT);
-							robot.keyRelease(KeyEvent.VK_RIGHT);
+							//robot.keyPress(KeyEvent.VK_RIGHT);
+							//robot.keyRelease(KeyEvent.VK_RIGHT);
 							robot.keyPress(KeyEvent.VK_META);
 							robot.keyPress(KeyEvent.VK_RIGHT);
 							robot.keyRelease(KeyEvent.VK_RIGHT);
@@ -140,8 +140,12 @@ public class RegisteredApplicationSubscribeSample {
 							break;
 
 						case "-5":
+							//robot.keyPress(KeyEvent.VK_LEFT);
+							//robot.keyRelease(KeyEvent.VK_LEFT);
+							robot.keyPress(KeyEvent.VK_META);
 							robot.keyPress(KeyEvent.VK_LEFT);
 							robot.keyRelease(KeyEvent.VK_LEFT);
+							robot.keyRelease(KeyEvent.VK_META);
 							break;
 
 						case "m":
@@ -176,6 +180,10 @@ public class RegisteredApplicationSubscribeSample {
 						case "down":
 							robot.keyPress(KeyEvent.VK_DOWN);
 							robot.keyRelease(KeyEvent.VK_DOWN);
+							robot.keyPress(KeyEvent.VK_CONTROL);
+							robot.keyPress(KeyEvent.VK_DOWN);
+							robot.keyRelease(KeyEvent.VK_DOWN);
+							robot.keyRelease(KeyEvent.VK_CONTROL);
 							break;
 
 						case "0":
