@@ -145,7 +145,7 @@ public class RegisteredApplicationSubscribeSample {
 							robot.keyPress(KeyEvent.VK_META);
 							robot.keyPress(KeyEvent.VK_LEFT);
 							robot.keyRelease(KeyEvent.VK_LEFT);
-							robot.keyRelease(KeyEvent.VK_META);
+							robot.keyRelease( KeyEvent.VK_META);
 							break;
 
 						case "m":
